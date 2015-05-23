@@ -360,7 +360,7 @@ $config['proxy_ips'] = '';
 
 /** config **/
 
-$config['nama_program'] = 'Technopark';
+$config['nama_program'] = 'eKolaborasi';
 $config['instansi'] = 'Hartanto Kurniawan Corp.';
 $config['usaha'] = 'BUSSINESS APLICATION SOFTWARE';
 $config['alamat_instansi'] = 'Ciputat - Tangerang Selatan';

@@ -8,7 +8,7 @@
 	<!-- Apple devices fullscreen -->
 	<meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	
-	<title>Technokal - Login</title>
+	<title>eKolaborasi - Login</title>
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
