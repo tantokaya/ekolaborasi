@@ -79,7 +79,7 @@
                 </div>
             <?php echo form_close(); ?>
 			<div class="forget">
-				<a href="#"><span>Lupa password?</span></a>
+				<a href="#"><span>Lupa password ?</span></a>
 			</div>
 		</div>
 	</div>
