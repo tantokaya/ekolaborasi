@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2461ee-65f4-4b8e-8099-3b264dc4e600" name="Default" comment="" />
+    <list default="true" id="fb2461ee-65f4-4b8e-8099-3b264dc4e600" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="tecnokal.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,48 +28,35 @@
       <file leaf-file-name="app_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/app_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="523" column="0" selection-start="14392" selection-end="14392" vertical-scroll-proportion="-10.039216" vertical-offset="8379" max-vertical-offset="9061">
+            <state line="523" column="0" selection-start="15183" selection-end="15183" vertical-scroll-proportion="-0.0" vertical-offset="8891" max-vertical-offset="11611">
               <folding>
-                <marker date="1427201675384" expanded="true" signature="3877:3921" placeholder="SELECT * FRO..tbl_admin..." />
-                <marker date="1427201675384" expanded="true" signature="4302:4346" placeholder="SELECT * FRO..tbl_admin..." />
-                <marker date="1427201675384" expanded="true" signature="4724:4768" placeholder="SELECT * FRO..tbl_admin..." />
-                <marker date="1427201675384" expanded="true" signature="5086:5130" placeholder="SELECT * FRO..tbl_level..." />
-                <marker date="1427201675384" expanded="true" signature="5446:5486" placeholder="SELECT * FRO..tbl_wp..." />
-                <marker date="1427201675384" expanded="true" signature="5806:5848" placeholder="SELECT * FRO..tbl_icon..." />
-                <marker date="1427201675384" expanded="true" signature="6277:6320" placeholder="SELECT max(m..." />
-                <marker date="1427201675384" expanded="true" signature="6801:6846" placeholder="SELECT max(a..." />
-                <marker date="1427201675384" expanded="true" signature="7328:7371" placeholder="SELECT max(d..." />
-                <marker date="1427201675384" expanded="true" signature="7852:7895" placeholder="SELECT max(t..." />
-                <marker date="1427201675384" expanded="true" signature="8377:8420" placeholder="SELECT max(t..." />
-                <marker date="1427201675384" expanded="true" signature="14038:14083" placeholder="DELETE FROM ..." />
-                <marker date="1427201675384" expanded="true" signature="14243:14295" placeholder="DELETE FROM ..." />
+                <marker date="1431462249000" expanded="true" signature="3901:3945" placeholder="SELECT * FRO..tbl_admin..." />
+                <marker date="1431462249000" expanded="true" signature="4326:4370" placeholder="SELECT * FRO..tbl_admin..." />
+                <marker date="1431462249000" expanded="true" signature="4748:4792" placeholder="SELECT * FRO..tbl_admin..." />
+                <marker date="1431462249000" expanded="true" signature="5110:5154" placeholder="SELECT * FRO..tbl_level..." />
+                <marker date="1431462249000" expanded="true" signature="5470:5510" placeholder="SELECT * FRO..tbl_wp..." />
+                <marker date="1431462249000" expanded="true" signature="5830:5872" placeholder="SELECT * FRO..tbl_icon..." />
+                <marker date="1431462249000" expanded="true" signature="6301:6344" placeholder="SELECT max(m..." />
+                <marker date="1431462249000" expanded="true" signature="6825:6870" placeholder="SELECT max(a..." />
+                <marker date="1431462249000" expanded="true" signature="7352:7395" placeholder="SELECT max(d..." />
+                <marker date="1431462249000" expanded="true" signature="7876:7919" placeholder="SELECT max(t..." />
+                <marker date="1431462249000" expanded="true" signature="8401:8444" placeholder="SELECT max(t..." />
+                <marker date="1431462249000" expanded="true" signature="17306:17351" placeholder="DELETE FROM ..." />
+                <marker date="1431462249000" expanded="true" signature="17511:17563" placeholder="DELETE FROM ..." />
+                <marker date="1431462249000" expanded="true" signature="17724:17777" placeholder="DELETE FROM ..." />
+                <marker date="1431462249000" expanded="true" signature="18013:18069" placeholder="SELECT * FRO..tbl_topik..." />
+                <marker date="1431462249000" expanded="true" signature="18193:18249" placeholder="SELECT * FRO..tbl_topik..." />
+                <marker date="1431462249000" expanded="true" signature="18368:18419" placeholder="SELECT * FRO..tbl_topik..." />
+                <marker date="1431462249000" expanded="true" signature="18538:18589" placeholder="SELECT * FRO..tbl_topik..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/wbs/form.php">
+      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="109" selection-start="4058" selection-end="4058" vertical-scroll-proportion="-56.884617" vertical-offset="255" max-vertical-offset="2431">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/agenda/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="111" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-14.384615" vertical-offset="255" max-vertical-offset="1139">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/agenda/form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="20" selection-start="5212" selection-end="5212" vertical-scroll-proportion="0.56567425" vertical-offset="1360" max-vertical-offset="3349">
+            <state line="38" column="33" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.23287672" vertical-offset="510" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
@@ -80,10 +69,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/dokumen/form.php" />
         <option value="$PROJECT_DIR$/application/controllers/dokumen.php" />
         <option value="$PROJECT_DIR$/application/controllers/chat.php" />
         <option value="$PROJECT_DIR$/application/views/chat_detail.php" />
@@ -134,6 +125,7 @@
         <option value="$PROJECT_DIR$/application/views/wp/form.php" />
         <option value="$PROJECT_DIR$/application/views/dokumen/view.php" />
         <option value="$PROJECT_DIR$/application/views/agenda/form.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
       </list>
     </option>
   </component>
@@ -144,7 +136,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -170,6 +162,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,7 +177,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
+              <option name="myItemId" value="eKolaborasi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,67 +187,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="topik" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
+              <option name="myItemId" value="eKolaborasi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -268,7 +201,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
+              <option name="myItemId" value="eKolaborasi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -276,269 +209,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wbs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="topik" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stkk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pengguna" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mitra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kalender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dokumen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="agenda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,18 +243,41 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fb2461ee-65f4-4b8e-8099-3b264dc4e600" name="Default" comment="" />
       <created>1425020482169</created>
       <updated>1425020482169</updated>
     </task>
+    <task id="LOCAL-00001" summary="database local">
+      <created>1432397670185</created>
+      <updated>1432397670185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -593,11 +292,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -609,14 +308,58 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="database local" />
+    <option name="LAST_COMMIT_MESSAGE" value="database local" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/models/app_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="523" column="0" selection-start="15183" selection-end="15183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11611">
+          <folding>
+            <marker date="1431462249000" expanded="true" signature="3901:3945" placeholder="SELECT * FRO..tbl_admin..." />
+            <marker date="1431462249000" expanded="true" signature="4326:4370" placeholder="SELECT * FRO..tbl_admin..." />
+            <marker date="1431462249000" expanded="true" signature="4748:4792" placeholder="SELECT * FRO..tbl_admin..." />
+            <marker date="1431462249000" expanded="true" signature="5110:5154" placeholder="SELECT * FRO..tbl_level..." />
+            <marker date="1431462249000" expanded="true" signature="5470:5510" placeholder="SELECT * FRO..tbl_wp..." />
+            <marker date="1431462249000" expanded="true" signature="5830:5872" placeholder="SELECT * FRO..tbl_icon..." />
+            <marker date="1431462249000" expanded="true" signature="6301:6344" placeholder="SELECT max(m..." />
+            <marker date="1431462249000" expanded="true" signature="6825:6870" placeholder="SELECT max(a..." />
+            <marker date="1431462249000" expanded="true" signature="7352:7395" placeholder="SELECT max(d..." />
+            <marker date="1431462249000" expanded="true" signature="7876:7919" placeholder="SELECT max(t..." />
+            <marker date="1431462249000" expanded="true" signature="8401:8444" placeholder="SELECT max(t..." />
+            <marker date="1431462249000" expanded="true" signature="17306:17351" placeholder="DELETE FROM ..." />
+            <marker date="1431462249000" expanded="true" signature="17511:17563" placeholder="DELETE FROM ..." />
+            <marker date="1431462249000" expanded="true" signature="17724:17777" placeholder="DELETE FROM ..." />
+            <marker date="1431462249000" expanded="true" signature="18013:18069" placeholder="SELECT * FRO..tbl_topik..." />
+            <marker date="1431462249000" expanded="true" signature="18193:18249" placeholder="SELECT * FRO..tbl_topik..." />
+            <marker date="1431462249000" expanded="true" signature="18368:18419" placeholder="SELECT * FRO..tbl_topik..." />
+            <marker date="1431462249000" expanded="true" signature="18538:18589" placeholder="SELECT * FRO..tbl_topik..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/agenda/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="111" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/agenda/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="20" selection-start="5212" selection-end="5212" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="3349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/dokumen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="36" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2652" />
@@ -640,11 +383,6 @@
     <entry file="file://$PROJECT_DIR$/application/views/chat_detail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="109" selection-start="174" selection-end="391" vertical-scroll-proportion="0.11643836" vertical-offset="0" max-vertical-offset="584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/stkk.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="40" selection-start="2256" selection-end="2342" vertical-scroll-proportion="0.1849315" vertical-offset="1048" max-vertical-offset="2635" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/breadcumb.php">
@@ -729,222 +467,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/topik.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="90" selection-start="5053" selection-end="5053" vertical-scroll-proportion="0.0" vertical-offset="2238" max-vertical-offset="2822">
-          <folding />
-        </state>
+        <state line="152" column="90" selection-start="5053" selection-end="5053" vertical-scroll-proportion="0.0" vertical-offset="2238" max-vertical-offset="2822" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="12" selection-start="3678" selection-end="3678" vertical-scroll-proportion="-0.58219177" vertical-offset="2176" max-vertical-offset="2822">
-          <folding />
-        </state>
+        <state line="108" column="12" selection-start="3678" selection-end="3678" vertical-scroll-proportion="-0.58219177" vertical-offset="2176" max-vertical-offset="2822" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/mitra.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="64" selection-start="2096" selection-end="2194" vertical-scroll-proportion="0.46917808" vertical-offset="763" max-vertical-offset="2856">
-          <folding />
-        </state>
+        <state line="61" column="64" selection-start="2096" selection-end="2194" vertical-scroll-proportion="0.46917808" vertical-offset="763" max-vertical-offset="2856" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/forum/topik.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="72" selection-start="3707" selection-end="3707" vertical-scroll-proportion="1.5779334" vertical-offset="0" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/stkk/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="118" selection-start="558" selection-end="558" vertical-scroll-proportion="0.35726795" vertical-offset="0" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/wp/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="776" selection-end="776" vertical-scroll-proportion="0.26795095" vertical-offset="153" max-vertical-offset="1122">
-          <folding />
-        </state>
+        <state line="53" column="72" selection-start="3707" selection-end="3707" vertical-scroll-proportion="1.5779334" vertical-offset="0" max-vertical-offset="1156" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/pengguna/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="118" selection-start="566" selection-end="566" vertical-scroll-proportion="0.24868652" vertical-offset="62" max-vertical-offset="1275">
-          <folding />
-        </state>
+        <state line="12" column="118" selection-start="566" selection-end="566" vertical-scroll-proportion="0.24868652" vertical-offset="62" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/mitra/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="683" selection-end="683" vertical-scroll-proportion="0.36777583" vertical-offset="62" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/wbs/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="834" selection-end="834" vertical-scroll-proportion="0.2977233" vertical-offset="153" max-vertical-offset="1139">
-          <folding />
-        </state>
+        <state line="16" column="32" selection-start="683" selection-end="683" vertical-scroll-proportion="0.36777583" vertical-offset="62" max-vertical-offset="1122" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/topik/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="163" selection-end="189" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1105">
-          <folding />
-        </state>
+        <state line="5" column="45" selection-start="163" selection-end="189" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/forum/pengumuman.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="149" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.65499127" vertical-offset="102" max-vertical-offset="969">
-          <folding />
-        </state>
+        <state line="28" column="149" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.65499127" vertical-offset="102" max-vertical-offset="969" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/forum/saran.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="328" selection-end="328" vertical-scroll-proportion="0.2084063" vertical-offset="0" max-vertical-offset="1020">
-          <folding />
-        </state>
+        <state line="7" column="19" selection-start="328" selection-end="328" vertical-scroll-proportion="0.2084063" vertical-offset="0" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/forum/pojok.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="16" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.74430823" vertical-offset="153" max-vertical-offset="1105">
-          <folding />
-        </state>
+        <state line="34" column="16" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.74430823" vertical-offset="153" max-vertical-offset="1105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/forum/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="59" selection-start="1321" selection-end="1351" vertical-scroll-proportion="-8.5" vertical-offset="306" max-vertical-offset="1003">
-          <folding />
-        </state>
+        <state line="31" column="59" selection-start="1321" selection-end="1351" vertical-scroll-proportion="-8.5" vertical-offset="306" max-vertical-offset="1003" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/main_nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="64" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.092819616" vertical-offset="627" max-vertical-offset="1428">
-          <folding />
-        </state>
+        <state line="40" column="64" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.092819616" vertical-offset="627" max-vertical-offset="1428" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/forum.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="71" selection-start="3574" selection-end="3574" vertical-scroll-proportion="-19.192308" vertical-offset="1150" max-vertical-offset="1972">
-          <folding />
-        </state>
+        <state line="97" column="71" selection-start="3574" selection-end="3574" vertical-scroll-proportion="-19.192308" vertical-offset="1150" max-vertical-offset="1972" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="22" selection-start="4880" selection-end="4880" vertical-scroll-proportion="-7.576923" vertical-offset="2115" max-vertical-offset="4624">
-          <folding />
-        </state>
+        <state line="136" column="22" selection-start="4880" selection-end="4880" vertical-scroll-proportion="-7.576923" vertical-offset="2115" max-vertical-offset="4624" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/kalender.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="57" selection-start="880" selection-end="880" vertical-scroll-proportion="-9.384615" vertical-offset="164" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/stkk/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="105" selection-start="3187" selection-end="3187" vertical-scroll-proportion="0.55417407" vertical-offset="1218" max-vertical-offset="2346">
-          <folding />
-        </state>
+        <state line="24" column="57" selection-start="880" selection-end="880" vertical-scroll-proportion="-9.384615" vertical-offset="164" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ref_json.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="26" selection-start="994" selection-end="1000" vertical-scroll-proportion="-2.6470587" vertical-offset="477" max-vertical-offset="2924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/wp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1875" selection-end="2021" vertical-scroll-proportion="4.0" vertical-offset="1056" max-vertical-offset="2584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/wp/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="17" selection-start="2148" selection-end="2148" vertical-scroll-proportion="0.14886165" vertical-offset="969" max-vertical-offset="2414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/wbs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="5" selection-start="4595" selection-end="4595" vertical-scroll-proportion="0.86986303" vertical-offset="1753" max-vertical-offset="2618">
-          <folding>
-            <marker date="1427194633858" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_stkk..." />
-            <marker date="1427194633858" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_wbs..." />
-            <marker date="1427194633858" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_stkk..." />
-            <marker date="1427194633858" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/app_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="523" column="0" selection-start="14392" selection-end="14392" vertical-scroll-proportion="-10.039216" vertical-offset="8379" max-vertical-offset="9061">
-          <folding>
-            <marker date="1427201675384" expanded="true" signature="3877:3921" placeholder="SELECT * FRO..tbl_admin..." />
-            <marker date="1427201675384" expanded="true" signature="4302:4346" placeholder="SELECT * FRO..tbl_admin..." />
-            <marker date="1427201675384" expanded="true" signature="4724:4768" placeholder="SELECT * FRO..tbl_admin..." />
-            <marker date="1427201675384" expanded="true" signature="5086:5130" placeholder="SELECT * FRO..tbl_level..." />
-            <marker date="1427201675384" expanded="true" signature="5446:5486" placeholder="SELECT * FRO..tbl_wp..." />
-            <marker date="1427201675384" expanded="true" signature="5806:5848" placeholder="SELECT * FRO..tbl_icon..." />
-            <marker date="1427201675384" expanded="true" signature="6277:6320" placeholder="SELECT max(m..." />
-            <marker date="1427201675384" expanded="true" signature="6801:6846" placeholder="SELECT max(a..." />
-            <marker date="1427201675384" expanded="true" signature="7328:7371" placeholder="SELECT max(d..." />
-            <marker date="1427201675384" expanded="true" signature="7852:7895" placeholder="SELECT max(t..." />
-            <marker date="1427201675384" expanded="true" signature="8377:8420" placeholder="SELECT max(t..." />
-            <marker date="1427201675384" expanded="true" signature="14038:14083" placeholder="DELETE FROM ..." />
-            <marker date="1427201675384" expanded="true" signature="14243:14295" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
+        <state line="36" column="26" selection-start="994" selection-end="1000" vertical-scroll-proportion="-2.6470587" vertical-offset="477" max-vertical-offset="2924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/dokumen/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="54" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.5464098" vertical-offset="181" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="29" column="54" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.5464098" vertical-offset="181" max-vertical-offset="1088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/kalender/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="79" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.65068495" vertical-offset="487" max-vertical-offset="1122">
-          <folding />
-        </state>
+        <state line="51" column="79" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.65068495" vertical-offset="487" max-vertical-offset="1122" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/wbs/form.php">
+    <entry file="file://$PROJECT_DIR$/application/views/agenda/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="109" selection-start="4058" selection-end="4058" vertical-scroll-proportion="-56.884617" vertical-offset="255" max-vertical-offset="2431">
+        <state line="99" column="20" selection-start="5212" selection-end="5212" vertical-scroll-proportion="0.56567425" vertical-offset="1360" max-vertical-offset="3349">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/agenda/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="111" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-14.384615" vertical-offset="255" max-vertical-offset="1139">
+        <state line="37" column="111" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.65499127" vertical-offset="255" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/agenda/form.php">
+    <entry file="file://$PROJECT_DIR$/application/models/app_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="20" selection-start="5212" selection-end="5212" vertical-scroll-proportion="0.56567425" vertical-offset="1360" max-vertical-offset="3349">
+        <state line="523" column="0" selection-start="15183" selection-end="15183" vertical-scroll-proportion="-0.0" vertical-offset="8891" max-vertical-offset="11611">
+          <folding>
+            <marker date="1431462249000" expanded="true" signature="3901:3945" placeholder="SELECT * FRO..tbl_admin..." />
+            <marker date="1431462249000" expanded="true" signature="4326:4370" placeholder="SELECT * FRO..tbl_admin..." />
+            <marker date="1431462249000" expanded="true" signature="4748:4792" placeholder="SELECT * FRO..tbl_admin..." />
+            <marker date="1431462249000" expanded="true" signature="5110:5154" placeholder="SELECT * FRO..tbl_level..." />
+            <marker date="1431462249000" expanded="true" signature="5470:5510" placeholder="SELECT * FRO..tbl_wp..." />
+            <marker date="1431462249000" expanded="true" signature="5830:5872" placeholder="SELECT * FRO..tbl_icon..." />
+            <marker date="1431462249000" expanded="true" signature="6301:6344" placeholder="SELECT max(m..." />
+            <marker date="1431462249000" expanded="true" signature="6825:6870" placeholder="SELECT max(a..." />
+            <marker date="1431462249000" expanded="true" signature="7352:7395" placeholder="SELECT max(d..." />
+            <marker date="1431462249000" expanded="true" signature="7876:7919" placeholder="SELECT max(t..." />
+            <marker date="1431462249000" expanded="true" signature="8401:8444" placeholder="SELECT max(t..." />
+            <marker date="1431462249000" expanded="true" signature="17306:17351" placeholder="DELETE FROM ..." />
+            <marker date="1431462249000" expanded="true" signature="17511:17563" placeholder="DELETE FROM ..." />
+            <marker date="1431462249000" expanded="true" signature="17724:17777" placeholder="DELETE FROM ..." />
+            <marker date="1431462249000" expanded="true" signature="18013:18069" placeholder="SELECT * FRO..tbl_topik..." />
+            <marker date="1431462249000" expanded="true" signature="18193:18249" placeholder="SELECT * FRO..tbl_topik..." />
+            <marker date="1431462249000" expanded="true" signature="18368:18419" placeholder="SELECT * FRO..tbl_topik..." />
+            <marker date="1431462249000" expanded="true" signature="18538:18589" placeholder="SELECT * FRO..tbl_topik..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="33" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.23287672" vertical-offset="510" max-vertical-offset="1258">
           <folding />
         </state>
       </provider>
