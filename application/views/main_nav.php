@@ -5,7 +5,7 @@
 </li>
 <li class='<?php if($judul == 'list_wbs' || $judul == 'add_wbs' || $judul == 'edit_wbs' || $judul == 'list_wp' || $judul == 'add_wp' || $judul == 'edit_wp'
     || $judul == 'list_pengguna' || $judul == 'add_pengguna' || $judul == 'edit_pengguna' || $judul == 'list_mitra' || $judul == 'add_mitra' || $judul == 'edit_mitra'
-    || $judul == 'list_stkk' || $judul == 'add_stkk' || $judul == 'edit_stkk' || $judul == 'list_dokumen' || $judul == 'add_dokumen' || $judul == 'edit_dokumen') echo 'active' ?>'>
+    || $judul == 'list_skpd' || $judul == 'add_skpd' || $judul == 'edit_skpd' || $judul == 'list_dokumen' || $judul == 'add_dokumen' || $judul == 'edit_dokumen') echo 'active' ?>'>
     <a href="#" data-toggle="dropdown" class='dropdown-toggle'>
         <span>Master</span>
         <span class="caret"></span>

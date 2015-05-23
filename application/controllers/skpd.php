@@ -21,10 +21,10 @@ class Skpd extends CI_Controller {
             $d['alamat_instansi']= $this->config->item('alamat_instansi');
 
 
-            $d['judul']         ="list_stkk";
+            $d['judul']         ="list_skpd";
             $d['judul_halaman'] = "Daftar SKPD (Satuan Kerja Perangkat Daerah)";
 
-            $d['all_stkk']	    = $this->app_model->get_all_stkk();
+            $d['all_skpd']	    = $this->app_model->get_all_skpd();
 
             $d['content']= $this->load->view('skpd/view',$d,true);
             $this->load->view('home',$d);
@@ -44,7 +44,7 @@ class Skpd extends CI_Controller {
             $d['usaha']         = $this->config->item('usaha');
             $d['alamat_instansi']= $this->config->item('alamat_instansi');
 
-            $d['judul']='add_stkk';
+            $d['judul']='add_skpd';
             $d['judul_halaman']='Tambah SKPD';
 
             $d['code']      = '';
@@ -69,22 +69,22 @@ class Skpd extends CI_Controller {
         if(!empty($cek)){
             $nama = $this->app_model->CariUserPengguna();
             $up['username']	    = $nama;
-            $up['stkk_code']    = $this->input->post('code');
-            $up['stkk_name']	= $this->input->post('name');
-            $up['stkk_desc']	= $this->input->post('desc');
+            $up['skpd_code']    = $this->input->post('code');
+            $up['skpd_name']	= $this->input->post('name');
+            $up['skpd_desc']	= $this->input->post('desc');
             $up['username']= $this->input->post('lead');
             //$up['nm_pm']	    = $this->input->post('pm');
             //$up['nm_ce']	    = $this->input->post('ce');
 
-            $id['stkk_code']	= $this->input->post('code');
+            $id['skpd_code']	= $this->input->post('code');
 
-            $data = $this->app_model->getSelectedData("tbl_stkk",$id);
+            $data = $this->app_model->getSelectedData("tbl_skpd",$id);
 
             if($data->num_rows()>0){
-                $this->app_model->updateData("tbl_stkk",$up,$id);
+                $this->app_model->updateData("tbl_skpd",$up,$id);
 
             }else{
-                $this->app_model->insertData("tbl_stkk",$up);
+                $this->app_model->insertData("tbl_skpd",$up);
             }
         }else{
             header('location:'.base_url());
@@ -102,18 +102,18 @@ class Skpd extends CI_Controller {
             $d['usaha']= $this->config->item('usaha');
             $d['alamat_instansi']= $this->config->item('alamat_instansi');
 
-            $d['judul']='edit_stkk';
-            $d['judul_halaman']='Edit STKK';
+            $d['judul']='edit_skpd';
+            $d['judul_halaman']='Edit SKPD (Satuan Kerja Perangkat Daerah)';
 
             $id = $this->uri->segment(3);
-            $text = "SELECT * FROM tbl_stkk WHERE stkk_code='$id'";
+            $text = "SELECT * FROM tbl_skpd WHERE skpd_code='$id'";
             $data = $this->app_model->manualQuery($text);
 
             if($data->num_rows() > 0){
                 foreach($data->result() as $db){
                     $d['code']	   = $id;
-                    $d['name']	   = $db->stkk_name;
-                    $d['desc']     = $db->stkk_desc;
+                    $d['name']	   = $db->skpd_name;
+                    $d['desc']     = $db->skpd_desc;
                     $d['lead']       = $db->username;
                     //$d['pm']       = $db->nm_pm;
                     //$d['ce']       = $db->nm_ce;
@@ -142,7 +142,7 @@ class Skpd extends CI_Controller {
         $cek = $this->session->userdata('logged_in');
         if(!empty($cek)){
             $id = $this->uri->segment(3);
-            $this->app_model->manualQuery("DELETE FROM tbl_stkk WHERE stkk_code='$id'");
+            $this->app_model->manualQuery("DELETE FROM tbl_skpd WHERE skpd_code='$id'");
             echo "<meta http-equiv='refresh' content='0; url=".base_url()."index.php/skpd'>";
         }else{
             header('location:'.base_url());
@@ -150,5 +150,5 @@ class Skpd extends CI_Controller {
     }
 }
 
-/* End of file stkk.php */
-/* Location: ./application/controllers/stkk.php */
+/* End of file skpd.php */
+/* Location: ./application/controllers/skpd.php */

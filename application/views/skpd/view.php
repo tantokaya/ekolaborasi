@@ -24,19 +24,19 @@
                 <tbody>
                 <?php
                 $no =1;
-                foreach ($all_stkk as $db):
+                foreach ($all_skpd as $db):
                     ?>
                     <tr>
                         <td align="center"><?php echo $no; ?></td>
-                        <td align="center" ><?php echo $db['stkk_code']; ?></td>
-                        <td ><?php echo $db['stkk_name']; ?></td>
+                        <td align="center" ><?php echo $db['skpd_code']; ?></td>
+                        <td ><?php echo $db['skpd_name']; ?></td>
 						<td ><?php echo $db['nama_lengkap']; ?></td>
-						<td ><?php echo $db['stkk_desc']; ?></td>
+						<td ><?php echo $db['skpd_desc']; ?></td>
                         <td align="center">
-                            <a href="<?php echo base_url();?>index.php/skpd/edit/<?php echo $db['stkk_code'];?>" class="btn btn-inverse" rel="tooltip" title="Edit">
+                            <a href="<?php echo base_url();?>index.php/skpd/edit/<?php echo $db['skpd_code'];?>" class="btn btn-inverse" rel="tooltip" title="Edit">
                                 <i class="icon-edit"></i>
                             </a>
-                            <a href="<?php echo base_url();?>index.php/skpd/hapus/<?php echo $db['stkk_code'];?>"
+                            <a href="<?php echo base_url();?>index.php/skpd/hapus/<?php echo $db['skpd_code'];?>"
                                onClick="return confirm('Anda yakin ingin menghapus data ini?')" class="btn btn-inverse" rel="tooltip" title="Hapus">
                                 <i class="icon-remove"></i>
                             </a>
