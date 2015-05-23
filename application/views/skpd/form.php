@@ -147,7 +147,7 @@
 
                     <div class="form-actions">
                         <button type="button"  id="simpan" class="btn btn-primary"><i class="icon-save"></i> Simpan</button>
-                        <button type="button" class="btn"><i class="icon-undo"></i> Batal</button>
+                        <button type="reset" class="btn"><i class="icon-undo"></i> Batal</button>
                         <a href="<?php echo base_url();?>index.php/skpd">
                             <button type="button" class="btn btn-red"><i class="icon-power-off"></i> Tutup</button>
                         </a>
