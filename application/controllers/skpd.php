@@ -50,8 +50,7 @@ class Skpd extends CI_Controller {
     public function simpan (){
         $cek = $this->session->userdata('logged_in');
         if(!empty($cek)){
-            $nama = $this->app_model->CariUserPengguna();
-            $up['username']	    = $nama;
+            $up['skpd_lead']	= $this->input->post('lead');
             $up['skpd_code']    = $this->input->post('code');
             $up['skpd_name']	= $this->input->post('name');
             $up['skpd_desc']	= $this->input->post('desc');
@@ -75,16 +74,9 @@ class Skpd extends CI_Controller {
     public function edit(){
         $cek = $this->session->userdata('logged_in');
         if(!empty($cek)){
-            $d['prg']= $this->config->item('prg');
-            $d['web_prg']= $this->config->item('web_prg');
-
-            $d['nama_program']= $this->config->item('nama_program');
-            $d['instansi']= $this->config->item('instansi');
-            $d['usaha']= $this->config->item('usaha');
-            $d['alamat_instansi']= $this->config->item('alamat_instansi');
-
             $d['judul']='edit_skpd';
             $d['judul_halaman']='Edit SKPD (Satuan Kerja Perangkat Daerah)';
+            $d['judul_breadcumb'] = '#';
 
             $id = $this->uri->segment(3);
             $text = "SELECT * FROM tbl_skpd WHERE skpd_code='$id'";
@@ -95,7 +87,7 @@ class Skpd extends CI_Controller {
                     $d['code']	   = $id;
                     $d['name']	   = $db->skpd_name;
                     $d['desc']     = $db->skpd_desc;
-                    $d['lead']       = $db->lead;
+                    $d['lead']       = $db->skpd_lead;
                     //$d['pm']       = $db->nm_pm;
                     //$d['ce']       = $db->nm_ce;
                 }
@@ -104,7 +96,7 @@ class Skpd extends CI_Controller {
                 $d['code']		    = $id;
                 $d['name']		    = '';
                 $d['desc']          = '';
-                $d['username']            = '';
+                $d['lead']            = '';
                 //$d['pm']            = '';
                 //$d['ce']            = '';
             }

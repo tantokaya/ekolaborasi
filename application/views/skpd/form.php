@@ -88,7 +88,11 @@
                     <div class="control-group">
                         <label for="textfield" class="control-label">Kode SKPD</label>
                         <div class="controls">
-                            <input type="text" name="code" id="code" placeholder="Kode SKPD.." class="input-large" value="<?php echo $code; ?>">
+                            <?php if($this->uri->segment(2)=='tambah') { ?>
+                                <input type="text" name="code" id="code" placeholder="Kode SKPD.." class="input-large" value="">
+                            <?php } elseif($this->uri->segment(2)=='edit') { ?>
+                                <input type="text" name="code" id="code" class="input-large" value="<?php echo $code; ?>" readonly>
+                            <?php } ?>
                         </div>
                     </div>
                     <div class="control-group">
@@ -101,7 +105,7 @@
                         <label for="textfield" class="control-label">Nama Kepala SKPD</label>
                         <div class="controls">
 							<div class="input-xlarge">
-                                <select name="lead" id="skpd_lead" class="chosen-select" required="true">
+                                <select name="lead" id="skpd_lead" required="true">
                                     <?php
                                     if(empty($skpd_lead)){
                                         ?>
