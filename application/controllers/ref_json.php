@@ -67,26 +67,26 @@ class Ref_json extends CI_Controller {
         }
     }
 
-    public function InfoStkk()
+    public function InfoSkpd()
     {
         $cek = $this->session->userdata('logged_in');
         if(!empty($cek)){
-            $kode = $this->input->post('code');
-            $text = "SELECT tbl_stkk.stkk_code,tbl_stkk.stkk_name,tbl_stkk.wp_code,tbl_stkk.stkk_desc,tbl_wbs.wbs_name
-                    FROM tbl_stkk INNER JOIN tbl_wbs ON tbl_stkk.wp_code = tbl_wbs.wbs_code WHERE tbl_stkk.stkk_code='$kode'";
+            $code = $this->input->post('code');
+            $text = "SELECT tbl_skpd.skpd_code,tbl_skpd.skpd_name,tbl_skpd.wp_code,tbl_skpd.skpd_desc, tbl_skpd.username
+                    FROM tbl_skpd  WHERE tbl_skpd.skpd_code='$code'";
             $tabel = $this->app_model->manualQuery($text);
             $row = $tabel->num_rows();
             if($row>0){
                 foreach($tabel->result() as $t){
-                    $data['stkk_name'] = $t->stkk_name;
-                    $data['stkk_desc'] = $t->stkk_desc;
-                    $data['wp_code'] = $t->wp_code;
+                    $data['skpd_name'] = $t->skpd_name;
+                    $data['skpd_desc'] = $t->skpd_desc;
+                    $data['username']       = $t->username;
                     echo json_encode($data);
                 }
             }else{
-                $data['stkk_name'] = '';
-                $data['stkk_desc'] = '';
-                $data['stkk_code'] = '';
+                $data['skpd_name'] = '';
+                $data['skpd_desc'] = '';
+                $data['skpd_code'] = '';
                 echo json_encode($data);
             }
         }else{
@@ -142,7 +142,7 @@ class Ref_json extends CI_Controller {
             header('location:'.base_url().'index.php/login');
         }
     }
-    public function ListStkk()
+    public function ListSkpd()
     {
         if($this->session->userdata('logged_in')!="")
         {
@@ -150,12 +150,12 @@ class Ref_json extends CI_Controller {
             if(empty($id)){
                 echo json_encode(array());
             }else{
-                $text = "SELECT tbl_stkk.stkk_code,tbl_stkk.stkk_name,tbl_stkk.wp_code,tbl_stkk.stkk_desc
-                      FROM tbl_stkk WHERE tbl_stkk.stkk_code LIKE '%$id%' GROUP BY tbl_stkk.stkk_code";
+                $text = "SELECT tbl_skpd.skpd_code,tbl_skpd.skpd_name,tbl_skpd.wp_code,tbl_skpd.skpd_desc
+                      FROM tbl_skpd WHERE tbl_skpd.skpd_code LIKE '%$id%' GROUP BY tbl_skpd.skpd_code";
                 $d = $this->app_model->manualQuery($text);
                 $data = array();
                 foreach($d->result() as $t)
-                    $data[] = $t->stkk_code;
+                    $data[] = $t->skpd_code;
                 echo json_encode($data);
 
             }

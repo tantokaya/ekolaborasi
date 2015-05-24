@@ -5,7 +5,7 @@
         $("#code").autocomplete({
             source: function(request,response) {
                 $.ajax({
-                    url: "<?php echo site_url('ref_json/ListStkk'); ?>",
+                    url: "<?php echo site_url('ref_json/ListSkpd'); ?>",
                     data: { id: $("#code").val()},
                     dataType: "json",
                     type: "POST",
@@ -19,23 +19,21 @@
         $("#code").keyup(function(e){
             var isi = $(e.target).val();
             $(e.target).val(isi.toUpperCase());
-            CariDataStkk();
+            CariDataSkpd();
         });
 
-        function CariDataStkk(){
-            var kode = $("#code").val()
+        function CariDataSkpd(){
+            var code = $("#code").val()
             $.ajax({
                 type	: 'POST',
-                url		: "<?php echo site_url(); ?>/ref_json/InfoStkk",
-                data	: "code="+kode,
+                url		: "<?php echo site_url(); ?>/ref_json/InfoSkpd",
+                data	: "code="+code,
                 cache	: false,
                 dataType : "json",
                 success	: function(data){
-                    $("#name").val(data.stkk_name);
-                    $("#desc").val(data.stkk_desc);
-                    $("#kp").val(data.nm_kp);
-                    $("#pm").val(data.nm_pm);
-                    $("#ce").val(data.nm_ce);
+                    $("#name").val(data.skpd_name);
+                    $("#desc").val(data.skpd_desc);
+                    $("#lead").val(data.username);
                 }
             });
         }
@@ -110,12 +108,12 @@
                                         <option value="">-PILIH-</option>
                                     <?php
                                     }
-                                    foreach($l_lead->result() as $z){
-                                        if($lead==$z->username){
+                                    foreach($l_lead->result() as $db){
+                                        if($lead==$db->username){
                                             ?>
-                                            <option value="<?php echo $z->username;?>" selected="selected"><?php echo $z->nama_lengkap;?></option>
+                                            <option value="<?php echo $db->username;?>" selected="selected"><?php echo $db->nama_lengkap;?></option>
                                         <?php }else{ ?>
-                                            <option value="<?php echo $z->username;?>"><?php echo $z->nama_lengkap;?></option>
+                                            <option value="<?php echo $db->username;?>"><?php echo $db->nama_lengkap;?></option>
                                         <?php }
                                     } ?>
                                 </select>
