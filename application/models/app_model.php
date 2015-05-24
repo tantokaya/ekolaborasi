@@ -370,7 +370,7 @@ class App_Model extends CI_Model {
     function get_all_skpd() {
         $this->db->select('tbl_skpd.skpd_code,tbl_skpd.skpd_name,tbl_skpd.skpd_desc,tbl_admin.nama_lengkap');
         $this->db->from('tbl_skpd');
-		  $this->db->join('tbl_admin', 'tbl_admin.username = tbl_skpd.username', 'left');
+		  $this->db->join('tbl_admin', 'tbl_admin.username = tbl_skpd.skpd_lead', 'left');
 		  $this->db->order_by('skpd_code', 'desc');
 
         $query = $this->db->get();

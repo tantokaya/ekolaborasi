@@ -12,17 +12,9 @@ class Skpd extends CI_Controller {
     {
         $cek = $this->session->userdata('logged_in');
         if(!empty($cek)){
-            $d['prg']= $this->config->item('prg');
-            $d['web_prg']= $this->config->item('web_prg');
-
-            $d['nama_program']= $this->config->item('nama_program');
-            $d['instansi']= $this->config->item('instansi');
-            $d['usaha']= $this->config->item('usaha');
-            $d['alamat_instansi']= $this->config->item('alamat_instansi');
-
-
-            $d['judul']         ="list_skpd";
-            $d['judul_halaman'] = "Daftar SKPD (Satuan Kerja Perangkat Daerah)";
+            $d['judul']             ="list_skpd";
+            $d['judul_halaman']     = "Daftar SKPD (Satuan Kerja Perangkat Daerah)";
+            $d['judul_breadcumb']   = "skpd";
 
             $d['all_skpd']	    = $this->app_model->get_all_skpd();
 
@@ -36,23 +28,14 @@ class Skpd extends CI_Controller {
     public function tambah(){
         $cek = $this->session->userdata('logged_in');
         if(!empty($cek)){
-            $d['prg']           = $this->config->item('prg');
-            $d['web_prg']       = $this->config->item('web_prg');
-
-            $d['nama_program']  = $this->config->item('nama_program');
-            $d['instansi']      = $this->config->item('instansi');
-            $d['usaha']         = $this->config->item('usaha');
-            $d['alamat_instansi']= $this->config->item('alamat_instansi');
-
             $d['judul']='add_skpd';
             $d['judul_halaman']='Tambah SKPD';
+            $d['judul_breadcumb']   = "skpd/tambah";
 
             $d['code']      = '';
             $d['name']      = '';
             $d['desc']      = '';
-            $d['kp']        = '';
-            $d['pm']        = '';
-            $d['ce']        = '';
+            $d['lead']        = '';
 
 			$text_lead = "SELECT * FROM tbl_admin";
 			$d['l_lead'] = $this->app_model->manualQuery($text_lead);
@@ -72,9 +55,7 @@ class Skpd extends CI_Controller {
             $up['skpd_code']    = $this->input->post('code');
             $up['skpd_name']	= $this->input->post('name');
             $up['skpd_desc']	= $this->input->post('desc');
-            $up['username']= $this->input->post('lead');
-            //$up['nm_pm']	    = $this->input->post('pm');
-            //$up['nm_ce']	    = $this->input->post('ce');
+            $up['skpd_lead']    = $this->input->post('lead');
 
             $id['skpd_code']	= $this->input->post('code');
 
@@ -114,7 +95,7 @@ class Skpd extends CI_Controller {
                     $d['code']	   = $id;
                     $d['name']	   = $db->skpd_name;
                     $d['desc']     = $db->skpd_desc;
-                    $d['lead']       = $db->username;
+                    $d['lead']       = $db->lead;
                     //$d['pm']       = $db->nm_pm;
                     //$d['ce']       = $db->nm_ce;
                 }

@@ -21,6 +21,14 @@
             $(e.target).val(isi.toUpperCase());
             CariDataSkpd();
         });
+        $("#code").focus(function(e){
+            var isi = $(e.target).val();
+            CariDataSkpd();
+        });
+
+        $("#code").keyup(function(){
+            CariDataSkpd();
+        });
 
         function CariDataSkpd(){
             var code = $("#code").val()
@@ -33,7 +41,7 @@
                 success	: function(data){
                     $("#name").val(data.skpd_name);
                     $("#desc").val(data.skpd_desc);
-                    $("#lead").val(data.username);
+                    $("#skpd_lead").val(data.skpd_lead);
                 }
             });
         }
@@ -89,21 +97,13 @@
                             <input type="text" name="name" id="name" placeholder="Nama SKPD..." class="input-xlarge" value="<?php echo $name; ?>">
                         </div>
                     </div>
-					<!--
-                    <div class="control-group">
-                        <label for="textfield" class="control-label">Nama Kepala SKPD</label>
-                        <div class="controls">
-                            <input type="text" name="kp" id="kp" placeholder="Nama Kepala SKPD..." class="input-xlarge" value="<?php echo $kp; ?>">
-                        </div>
-                    </div>
-					-->
 					<div class="control-group">
                         <label for="textfield" class="control-label">Nama Kepala SKPD</label>
                         <div class="controls">
 							<div class="input-xlarge">
-                                <select name="lead" id="lead" class="chosen-select" required="true">
+                                <select name="lead" id="skpd_lead" class="chosen-select" required="true">
                                     <?php
-                                    if(empty($lead)){
+                                    if(empty($skpd_lead)){
                                         ?>
                                         <option value="">-PILIH-</option>
                                     <?php
@@ -120,21 +120,7 @@
 							</div>
                         </div>
                     </div>
-					<!--
-                    <div class="control-group">
-                        <label for="textfield" class="control-label">Nama PM</label>
-                        <div class="controls">
-                            <input type="text" name="pm" id="pm" placeholder="PM..." class="input-xlarge" value="<?php echo $pm; ?>">
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label for="textfield" class="control-label">Nama CE</label>
-                        <div class="controls">
-                            <input type="text" name="ce" id="ce" placeholder="CE..." class="input-xlarge" value="<?php echo $ce; ?>">
-                        </div>
-                    </div>
-					-->
-                    <div class="control-group">
+					<div class="control-group">
                         <label for="textfield" class="control-label">Keterangan</label>
                         <div class="controls">
                             <textarea name="desc" id="desc" rows="5" class="input-block-level"><?php echo $desc; ?></textarea>

@@ -72,21 +72,20 @@ class Ref_json extends CI_Controller {
         $cek = $this->session->userdata('logged_in');
         if(!empty($cek)){
             $code = $this->input->post('code');
-            $text = "SELECT tbl_skpd.skpd_code,tbl_skpd.skpd_name,tbl_skpd.wp_code,tbl_skpd.skpd_desc, tbl_skpd.username
-                    FROM tbl_skpd  WHERE tbl_skpd.skpd_code='$code'";
+            $text = "SELECT *  FROM tbl_skpd  WHERE tbl_skpd.skpd_code='$code'";
             $tabel = $this->app_model->manualQuery($text);
             $row = $tabel->num_rows();
             if($row>0){
                 foreach($tabel->result() as $t){
                     $data['skpd_name'] = $t->skpd_name;
                     $data['skpd_desc'] = $t->skpd_desc;
-                    $data['username']       = $t->username;
+                    $data['skpd_lead'] = $t->skpd_lead;
                     echo json_encode($data);
                 }
             }else{
                 $data['skpd_name'] = '';
                 $data['skpd_desc'] = '';
-                $data['skpd_code'] = '';
+                $data['skpd_lead'] = '';
                 echo json_encode($data);
             }
         }else{
@@ -150,7 +149,7 @@ class Ref_json extends CI_Controller {
             if(empty($id)){
                 echo json_encode(array());
             }else{
-                $text = "SELECT tbl_skpd.skpd_code,tbl_skpd.skpd_name,tbl_skpd.wp_code,tbl_skpd.skpd_desc
+                $text = "SELECT tbl_skpd.skpd_code,tbl_skpd.skpd_name,tbl_skpd.skpd_desc
                       FROM tbl_skpd WHERE tbl_skpd.skpd_code LIKE '%$id%' GROUP BY tbl_skpd.skpd_code";
                 $d = $this->app_model->manualQuery($text);
                 $data = array();
