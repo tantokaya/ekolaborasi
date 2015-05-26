@@ -18,11 +18,11 @@
 <div class="breadcrumbs">
     <ul>
         <li>
-            <a href="<?php echo base_url(); ?>">Home</a>
+            <a href="<?php echo base_url(); ?>index.php/home">Home</a>
             <i class="icon-angle-right"></i>
         </li>
         <li>
-            <a href="<?php echo base_url() ?>/index.php/<?php echo $judul_breadcumb; ?>"><?php echo $judul_halaman; ?></a>
+            <a href="<?php echo current_url(); ?>"><?php echo $judul_halaman; ?></a>
         </li>
     </ul>
     <div class="close-bread">
