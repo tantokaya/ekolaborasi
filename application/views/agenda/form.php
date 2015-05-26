@@ -77,24 +77,27 @@
                     <div class="control-group">
                         <label for="textfield" class="control-label">Mitra</label>
                         <div class="controls">
-                            <div class="input-xlarge">
-                                <select name="mitra" id="mitra" class="chosen-select" required>
-                                    <?php
-                                    if(empty($mitra)){
+                            <select name="mitra[]" id="mitra" multiple="multiple" class="chosen-select input-xlarge">
+                                <?php
+                                if(empty($mitra)){
+                                    ?>
+                                    <option value="0">-PILIH-</option>
+                                <?php
+                                }
+                                echo $mitra;
+                                if($mitra){
+                                    $x = explode(',', $mitra);
+                                }
+
+                                foreach($l_mitra->result() as $t){
+                                    if(in_array($t->mitra_code, $x)){
                                         ?>
-                                        <option value="">-PILIH-</option>
-                                    <?php
-                                    }
-                                    foreach($l_mitra->result() as $t){
-                                        if($mitra==$t->mitra_code){
-                                            ?>
-                                            <option value="<?php echo $t->mitra_code;?>" selected="selected"><?php echo $t->mitra_code.' - '.$t->mitra_name;?></option>
-                                        <?php }else{ ?>
-                                            <option value="<?php echo $t->mitra_code;?>"><?php echo $t->mitra_code.' - '.$t->mitra_name;?></option>
-                                        <?php }
-                                    } ?>
-                                </select>
-                            </div>
+                                        <option value="<?php echo $t->mitra_code;?>" selected="selected"><?php echo $t->mitra_name;?></option>
+                                    <?php }else{ ?>
+                                        <option value="<?php echo $t->mitra_code;?>"><?php echo $t->mitra_name;?></option>
+                                    <?php }
+                                } ?>
+                            </select>
                         </div>
                     </div>
                     

@@ -87,7 +87,16 @@ class Agenda extends CI_Controller {
             $up['agenda_mulai'] = $this->functions->convert_date_sql($this->input->post('mulai'));
             $up['agenda_akhir'] = $this->functions->convert_date_sql($this->input->post('akhir'));
             $up['agenda_lokasi'] = $this->input->post('lokasi');
-            $up['mitra_code'] = $this->input->post('mitra');
+            $mitra = $this->input->post('mitra');
+            $mitra_code= '';
+            for($i=0; $i<count($mitra); $i++){
+                if($i==count($mitra)-1){
+                    $mitra_code .= $mitra[$i];
+                } else {
+                    $mitra_code .= $mitra[$i].',';
+                }
+            }
+            $up['mitra_code'] = $mitra_code;
             $up['nip']          = $this->session->userdata('nip');
 
             $id['agenda_code']	= $this->input->post('code');			
